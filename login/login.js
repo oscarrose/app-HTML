@@ -1,17 +1,20 @@
 //select the elemts html
 const inputUser = document.querySelector('#inputUser');
-const inputPass = document.getElementById('inputPassword');
+const inputPass = document.querySelector('#inputPassword');
 const btnEnter = document.getElementById('btnEnter');
 
 // add the Events and function
-btnEnter.addEventListener('submit', valited );
+btnEnter.addEventListener('click', valited() );
   
 
 
 
 function valited(){
   
-   console.log('dede');
+  if(inputPass.value ===""){
+   document.querySelector("#errorPassword").hidden = false;
+     document.querySelector("#errorPassword").innerHTML="Ingrese una contraseña"; 
+  }
   
 }
 
