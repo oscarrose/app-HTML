@@ -1,0 +1,49 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    background-color: seagreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.error{
+
+    color: red;
+    padding-right: 225px;
+   margin-top: 0px;
+}
+.inputLogin{
+    margin-top: 15px;
+    margin-bottom: 15px;
+ 
+}
+.buttonLogin{
+    color: white;
+    background-color:dodgerblue;
+    font-size: 15px;
+    width: 75px;
+    height: 25px;
+    border-style: none;
+
+}
+.cardElements{
+    margin-top: -100px;
+}
+
+
+.cardInput{
+    align-content: center;
+    background-color: whitesmoke;
+   display: block;
+   border-radius: 10px;
+   padding: 100px;
+   margin-top: 50px;
+   margin-left: 550px;
+   margin-right: 550px;
+   margin-top: 35px;
+
+}

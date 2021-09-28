@@ -1,0 +1,18 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch localhost",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "http://127.0.0.1:5500/Index.html",
+            "pathMappings": [{
+                "url": "http://localhost",
+                "path": "${workspaceFolder}"
+            }]
+        }
+    ]
+}
+

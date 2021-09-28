@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <section class="cardInput">
+       
+        <div  class="cardElements">
+            
+            <h1>Login</h1>
+           
+            <form action="index.html" method="POST" >
+                
+                <label for="inputUser">User</label>
+                <input class="inputLogin" type="email" id="inputUser" name="user" required >
+                <p hidden class="error" id="errorUsser">textError</p>     
+                
+                <br>
+
+                <label for="inputPassword">Password</label>
+                <input class="inputLogin" type="password" id="inputPassword" name="password" required minlength="8">
+                <p hidden class="error" id="errorPassword">textError</p>
+                
+                <br>
+                <button class="buttonLogin" id="btnEnter" type="submit">Enter</button>
+                   
+                    
+            </form>
+
+        </div>
+
+    </section>
+    <script src="login.js"></script>
+</body>
+</html>
